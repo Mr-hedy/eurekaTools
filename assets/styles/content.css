@@ -1,0 +1,87 @@
+.hedy-class-button-serviceList {
+    position: relative;
+    float: right;
+    margin: 18px 0px 0px 30px;
+    width: 120px;
+    height: 36px;
+    background-color: #ffeac2;
+    border: solid 2px #cc6e37;
+    border-radius: 20px 20px 20px 20px;
+    cursor: pointer;
+    text-shadow: none;
+    color: #838789;
+    font-size: 14px;
+    text-align: center;
+    line-height: 32px;
+    text-transform: uppercase;
+    font-family: "montserratregular", sans-serif;
+
+}
+
+.hedy-class-serviceList-box {
+    width: 600px;
+    height: 500px;
+    overflow-y: auto;
+    overflow-x: auto;
+}
+
+.hedy-class-table-apps {
+    border-collapse: collapse;
+    border: 0px solid #787878;
+    font-size: 12px;
+    width: 100%;
+    margin-bottom: 2px;
+}
+
+.hedy-class-table-apps-title {
+    width: 25%;
+    background-color: #808080;
+    text-align: center;
+    color: white;
+}
+
+.hedy-class-table-apps-label {
+    margin-top: 3px;
+    margin-bottom: 3px;
+    text-shadow: none;
+    color: #747474;
+    font-weight: bold;
+    text-transform: uppercase;
+    font-family: "montserratregular", sans-serif;
+}
+
+.hedy-class-table-apps-app-name-font {
+    text-align: left;
+    font-size: 18px;
+    padding-left: 20px;
+}
+
+.hedy-class-table-apps-instance-font {
+    font-size: 16px;
+}
+
+.hedy-class-table-apps-app-name-green {
+    width: 25%;
+    background-color: #e9ffe9;
+    text-align: center;
+    color: white;
+}
+
+.hedy-class-table-apps-app-name-light-green {
+    width: 25%;
+    background-color: #cee5ce;
+    text-align: center;
+    color: white;
+}
+
+.hedy-class-table-apps-instance-status-up {
+    color: #037d19;
+}
+
+.hedy-class-table-apps-instance-status-down {
+    color: #7d050c;
+}
+
+.hedy-class-td-padding {
+    padding: 10px 10px 10px 10px;
+}

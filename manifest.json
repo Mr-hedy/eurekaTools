@@ -1,0 +1,36 @@
+{
+  "manifest_version": 2,
+  "name": "Eureka Tools by: hedy",
+  "version": "0.0.1",
+  "description": "Eureka Manager Tools",
+  "homepage_url": "https://github.com/Mr-hedy",
+  "icons": {
+    "512": "assets/images/icon_512.png",
+    "256": "assets/images/icon_256.png",
+    "128": "assets/images/icon_128.png",
+    "64": "assets/images/icon_64.png",
+    "32": "assets/images/icon_32.png",
+    "16": "assets/images/icon_16.png"
+  },
+  "web_accessible_resources": [
+    "assets/libs/skins/*"
+  ],
+  "content_scripts": [
+    {
+      "run_at": "document_end",
+      "matches": [
+        "http://192.168.101.33:8761/*"
+      ],
+      "js": [
+        "/assets/libs/jquery-3.4.1.min.js",
+        "/assets/libs/jquery.xml2json.js",
+        "/assets/libs/artDialog.js",
+        "/assets/scripts/content.js"
+      ],
+      "css": [
+        "/assets/libs/skins/green.css",
+        "/assets/styles/content.css"
+      ]
+    }
+  ]
+}
